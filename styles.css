@@ -1,0 +1,31 @@
+* {
+  margin: 10px;
+  text-align: center;
+}
+.small {
+  margin: 10px 30px 10px 30px;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  transition: 0.15s;
+}
+.small:hover {
+  background-color: #d3d4d5;
+  cursor: pointer;
+}
+.big {
+  border: 3px solid #d3d4d5;
+  width: 40%;
+  margin: 150px 30%;
+  border-radius: 15px;
+  min-width: 300px;
+}
+
+#text {
+  margin-top: 0px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+#author {
+  padding-bottom: 10px;
+}
